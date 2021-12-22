@@ -8,10 +8,10 @@ Basically, this blueprint takes care of the authentication and provides
 some shortcuts to make your life better when coding (see `pull_project`
 and `add_project_id` for a quick overview)
 """
-from datetime import datetime
 from functools import wraps
 import json
 import os
+from datetime import datetime
 
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
